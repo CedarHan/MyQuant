@@ -82,8 +82,7 @@ annotate(r'$\cos(\frac{2\pi}{3})=-\frac{1}{2}$',
 # 添加底色使标签曲线同时可见
 for label in ax.get_xticklabels() + ax.get_yticklabels():
     label.set_fontsize(16)
-    label.set_bbox(dict(facecolor='green', edgecolor='None', alpha=0.65 ))
-
+    label.set_bbox(dict(facecolor='green', edgecolor='None', alpha=0.65))
 
 # 以分辨率 72 来保存图片
 # savefig("exercice_2.png",dpi=72)
