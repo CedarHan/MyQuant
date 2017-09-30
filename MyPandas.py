@@ -160,8 +160,39 @@ print(df2)
 
 # print(df2.drop_duplicates(subset='A', keep='last'))
 
-dat = df2[df2['F']>0].set_index('G')['F']
-dat.plot(title='xxx')
+# print(df2[df2['G'].isin([4.0, 6.0])].head())
+# df3=df2
+# df3['E'][df3['G'] == 4.0] = np.nan
+# print(df3)
+# df3.dropna()
+# df2.fillna(value='123')
+# print(df2)
 
-# https://uqer.io/community/share/5514bb11f9f06c12790415b2
-# isin()函数可方便地过滤DataFrame中的数据
+# df2= raw_data[['A','B','C','D','E','F','G']]
+# print(df2.mean(0))
+# print(df2['B'].value_counts().head())
+# df3 = df2[['A', 'B', 'F', 'G']].head()
+# df4 = df2[['A', 'B', 'F', 'G']].iloc[3]
+# df5 = df3.append(df4,ignore_index=True)
+# print(df5)
+
+# df3 = df2[['A', 'B', 'F']].head(2)
+# df4 = df2[['A', 'B', 'G']].head(3)
+# df5 = df3.merge(df4,on=['A','B'])
+# print(df3)
+# print(df4)
+# print(df5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
